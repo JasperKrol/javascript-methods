@@ -14,11 +14,10 @@ console.log(currentDay);
 // Minuten: 36 (als het 16:36 is op het moment van aanroepen)
 
 const today = new Date();
-
 const hours = today.getHours();
 const minutes = today.getMinutes();
 
-console.log(hours,minutes);
+console.log(hours, minutes);
 
 
 /* Opdracht 2 */
