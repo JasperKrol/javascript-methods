@@ -24,10 +24,17 @@ console.log(fruit.length > vegetable.length)
 // ---- Verwachte uitkomst voor fruit: "n"
 // ---- Verwachte uitkomst voor vegetable: "l"
 
-const fruitLength = fruit.length
-const vegetableLength = vegetable.length
+// laatste index nummer weergeven (6 indexen begint bij 0
+const lastIndexFruit = fruit.length - 1;
+const lastIndexVegetable = vegetable.length - 1;
 
-console.log(fruitLength)
+/*console.log(lastIndexFruit, lastIndexVegetable) // geeft 5-8*/
+
+//
+const lastFruit = fruit.substring(lastIndexFruit)
+console.log(lastFruit)
+
+
 
 /* Opdracht 3 */
 //  Haal de spaties aan het begin en eind van onderstaande zin weg en log dit in de terminal
